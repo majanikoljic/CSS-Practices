@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+.container{
+    border: 4px solid lightgray;
+    padding: 24px 24px 0 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.box{
+    border: 4px solid lightgray;
+    margin-bottom: 24px;
+}
+
+
+.box-small{
+    height: 50px;
+}
+
+
+.box-wrapper{
+    width: 45%;
+    display: flex;
+    flex-direction: column; 
+    /* display block automatically puts elements on top of each other. one element under the next element */
+    /* display: flex;
+    flex-direction: column; = we can either have this or not. it wont change anything because by default  elements have deplayed block*/
+}
+
+.box-large{
+    width: 45%;
+}
+
+
+
